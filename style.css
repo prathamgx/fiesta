@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Varela+Round&display=swap');
+nav ul{
+  display:flex;
+  list-style-type: none;
+  align-items: center;
+  height: 80px;
+  background-color:black;
+  justify-content:space-between;
+  padding:0 20px;
+  color:white;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: greenyellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: greenyellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.brand img{
+  width:65px;
+  background-color:black;
+  margin-right: 5px;
+  align-items: center;
+}
+*{
+  padding:0;
+  margin:0;
+  background-color:lightgray;
+}
+a{
+  background-color:black;
+}
+.brand{
+  display:flex;
+  align-items:center;
+}
+nav ul li{
+  padding:0 5px;
+  background-color:black;
+  font-weight: bold;
+  color:white;
+  font-family: 'Varela Round', sans-serif;
+}
+.indexcontainer{
+  min-height:67.3vh;
+  width:70%;
+  margin:23px auto;
+  background-image:url('img/gif2.gif');
+  background-repeat: no-repeat; 
+  background-size:cover;
+  display:flex;
+  flex-direction:column;
+  padding:23px;
+  border-radius:12px;
+}
+.profilecontainer{
+  min-height:68vh;
+  display:flex;
+  padding:23px;
+}
+
+.aboutcontainer{
+  min-height:72.7vh;
+  padding:23px;
+  font-family: 'Amiri', serif;
+  text-align: center;
+}
+.aboutcontainer p{
+  font-size:25px;
+}
+#dp{
+  width: 54.4vh;
+}
+
+.col1{
+  align-items: center;
+  width: 50%;
+}
+.col2{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  font-family: 'Amiri', serif;
+  font-weight: bold;
+  font-size:35px;
+}
+.col2 img{
+  width: 15%;
+  background-color:lightgray;
+}
+.bottom{
+  position: sticky;
+  bottom: 0;
+  height: 110px;
+  background-color:black;
+  color: black;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+#seek{
+  width:50%;
+  cursor:pointer;
+}
+.icons{
+  background-color:black;
+  margin-top:12px;
+}
+.icons i{
+  cursor:pointer;
+  color:white;
+  background-color:black;
+}
+
+.item img{
+  width:43px;
+  margin:0 23px;
+  border-radius: 12px;
+}
+.item i{
+  cursor: pointer;
+}
+.item{
+  height: 50px;
+  width: 50%;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0;
+  align-items: center;
+  border-radius: 34px;
+  justify-content: space-around;
+  background-color: lightgray;
+  opacity:.9;
+}
+#info{
+  position: absolute;
+  left:2vw;
+  color:lightgray;
+  font-family: 'Amiri', serif;
+  background-color:black;
+  font-size: 20px;
+}
